@@ -22,16 +22,25 @@
     }
     &__nombres {
         padding-left: 20px;
-        display: flex;
         align-items: center;
         flex-direction: column;
+        text-align: left;
         h2 {
             font-size: 22px;
+            font-weight: 700;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
         }
         p {
             font-size: 14px;
             color: #ccc;
             margin-bottom: 0;
         }
+    }
+}
+
+@media (max-width: 576px) {
+    .profile__buttons {
+        display: none;
     }
 }

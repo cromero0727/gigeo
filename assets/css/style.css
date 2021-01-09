@@ -9914,8 +9914,18 @@ h3 {
   align-items: center;
 }
 
+@media (max-width: 576px) {
+  .contenedor .fa-search,
+.contenedor .fa-video,
+.contenedor .fa-plus,
+.contenedor .fa-bell {
+    display: none;
+  }
+}
 [class^=profile__buttons] {
   color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
 .contenedor__nav__lista i {
@@ -9950,17 +9960,42 @@ h3 {
 }
 .profile__perfil__nombres {
   padding-left: 20px;
-  display: flex;
   align-items: center;
   flex-direction: column;
+  text-align: left;
 }
 .profile__perfil__nombres h2 {
   font-size: 22px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 .profile__perfil__nombres p {
   font-size: 14px;
   color: #ccc;
   margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+  .profile__buttons {
+    display: none;
+  }
+}
+.contenedor__main-item {
+  margin-bottom: 20px;
+}
+.contenedor__main-item h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-top: 10px;
+}
+.contenedor__main-item p {
+  font-size: 0.8rem;
+}
+.contenedor__main h3 {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

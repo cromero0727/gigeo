@@ -19,3 +19,12 @@
         align-items: center;
     }
 }
+
+@media (max-width: 576px) {
+    .contenedor .fa-search,
+    .contenedor .fa-video,
+    .contenedor .fa-plus,
+    .contenedor .fa-bell {
+        display: none;
+    }
+}
